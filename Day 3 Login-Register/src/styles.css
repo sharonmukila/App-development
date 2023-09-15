@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://img.freepik.com/free-vector/crime-scene-background-with-blood-splatter-wood-with-yellow-warning-tape_1048-6102.jpg?w=740&t=st=1694757282~exp=1694757882~hmac=1db2884ea200e862bf1fc6bd5b8264970d8726bc68a836864e4461bde56b32d5");
+  /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6kugqNQHMY1vFVXQbW2wspO97BbE5ii-5lLBTxjTRobNC_ULksUPnxYmMSaHhLtLQ0kQ&usqp=CAU"); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+  margin: -20px 0 50px;
+  opacity: 0.6;
+  font-optical-sizing: 100px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+}
