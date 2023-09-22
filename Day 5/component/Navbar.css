@@ -1,0 +1,38 @@
+/* CSS for Search component */
+div[data-testid="Search-root"] {
+    position: relative;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.15);
+  }
+  div[data-testid="Search-root"]:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+  }
+  
+  /* CSS for SearchIconWrapper component */
+  div[data-testid="SearchIconWrapper-root"] {
+    padding: 0 16px;
+    height: 100%;
+    position: absolute;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* CSS for StyledInputBase component */
+  input[data-testid="StyledInputBase-input"] {
+    color: inherit;
+    padding: 8px 8px 8px 32px;
+    /* vertical padding + font size from searchIcon */
+    padding-left: calc(1em + 32px);
+    transition: width 0.3s ease;
+    width: 100%;
+  }
+  
+  /* CSS for StyledInputBase component on medium and larger screens */
+  @media (min-width: 600px) {
+    input[data-testid="StyledInputBase-input"] {
+      width: 160px;
+    }
+  }
+  
