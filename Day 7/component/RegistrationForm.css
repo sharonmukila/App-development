@@ -1,0 +1,44 @@
+body{
+  background: #fefefe;  /* fallback for old browsers */
+    /* Chrome 10-25, Safari 5.1-6 */
+  /* background-image: url(""); */
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* background-image: url("https://images.pexels.com/photos/8369526/pexels-photo-8369526.jpeg?auto=compress&cs=tinysrgb&w=600"); */
+  /* obacity: 0.5em; */
+  /* padding-top: 200px; */
+  
+}
+.error-message
+{
+  color: red;
+}
+
+.form{
+  background-color: white;
+  border-radius: 5px;
+  width: 550px;
+  margin: 20px auto;
+  padding: 20px;
+  /* height: 600px; */
+}
+
+.form-body{
+  text-align: left;
+  padding: 20px 10px;
+}
+
+.form-body > *{
+  padding: 5px;
+}
+
+.form__label{
+  width: 40%;
+}
+
+.form_input{
+  width: 60%;
+}
+
+.footer{
+  text-align: center;
+}
