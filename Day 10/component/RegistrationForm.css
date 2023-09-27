@@ -1,0 +1,82 @@
+
+.regg{
+  position:absolute;
+  background-image: url("https://images.pexels.com/photos/8369526/pexels-photo-8369526.jpeg?auto=compress&cs=tinysrgb&w=600");
+  /* background-repeat: no-repeat;
+  background-size: cover; */
+  height:744px;
+  width:1525px;
+
+}
+.regi{
+  position:absolute;
+  margin-left:39% ;
+  margin-top: 6%;
+}
+.registration-form {
+  width: 500px;
+  height: 550px;
+  margin-left: 26%;
+  padding: 30px;
+  border: 1px solid #d30b0b;
+   opacity: 0.5 rem;
+  text-align: center;
+  background-color: #f2efef;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 5%;
+  border-radius: 10px;
+  
+
+  
+}
+
+.form-group {
+  margin-top: 5%;
+  
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+
+}
+
+button.register-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button.register-button:hover {
+  background-color: #0056b3;
+}
+
+p {
+  margin-top: 15px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

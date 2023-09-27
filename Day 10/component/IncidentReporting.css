@@ -1,0 +1,93 @@
+
+.imgw{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: absolute;
+    padding-top: 0px;
+}
+.crime-reporting-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    max-width: 100px; /* Reduce the maximum width as needed */
+    padding: 10px; /* Adjust padding for spacing */
+    /* background-color: #f7f7f7; */
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    margin: 10 auto; /* Center the form horizontally on the page */
+  }
+  
+  .crime-reporting-form.h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #333;
+    margin-left: 200px;
+  
+  }
+  
+  .form-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    width: 900px;
+    margin-left: 200px;
+    margin-top: 35px;
+  }
+
+  .form-section svg {
+    margin-right: 10px;
+    font-size: 24px;
+    width: 50px;
+    line-height: 100px;
+    color: #333;
+  }
+  
+  input[type="date"],
+  input[type="time"],
+  input[type="text"],
+  select,
+  textarea {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #3da8c8;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  select {
+    cursor: pointer;
+  }
+  
+  textarea {
+    resize:vertical;
+    width: 400%; /* Set the width to 100% or a specific width in pixels */
+    max-width: 100%; /* Ensure the textarea doesn't exceed its container's width */
+    max-height: 150px;
+  }
+  
+  button[type="submit"] {
+    background-color: #ce3e64;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    animation: moveButton 2s ease infinite
+  }
+ 
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .incident-reporting-form.ic{
+    padding-left: 20px;
+  }
+  
