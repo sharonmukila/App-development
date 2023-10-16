@@ -1,0 +1,331 @@
+.App {
+    display: flex;
+    font-family: "IBM Plex Sana Thai Looped", sans-serif;
+    color: white;
+    /* background: linear-gradient(179deg, #646465, #d545d7);
+    text-shadow: 1px 0px 2px #4f9492; */
+    background-image: url("https://gijn.org/wp-content/uploads/2021/10/OtherCrimes_DavidKaplan_Final-771x445.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  }
+
+ .cont1{
+    background-color: black;
+  }
+  .body_container {
+    flex: 1;
+  }
+.head
+{
+   padding-top:35px;
+   font-variant: small-caps;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+  position: absolute;
+  padding-left: 600px;
+  font-weight: 600;
+  font-size: xx-large;
+  
+
+
+}
+  .sidebar_container {
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    left:0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .sidebar{
+    display: flex;
+    width: 15rem;
+    height: 95%;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    padding: 15px;
+    margin: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(5.5px);
+    border-radius:10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
+  .lines_icon{
+    display: flex;
+    align-self: flex-end;
+    border-radius: 5px;
+  }
+  
+  .profile{
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  }
+  
+  .profile>img{
+    width: 100%;
+  border-radius: 50%;
+  }
+  
+  .groups{
+    display: flex;
+    flex-direction: column;
+    width: 100%
+  }
+  .group{
+    display: flex;
+    flex-direction: column;
+    width: 100%
+  }
+  h3{
+    font-size: 1rem;
+    margin: 10px 0px 10px 0px
+  }
+.body_container{
+  padding-top: 100px;
+  width: 80px;
+  height: 80px;
+  padding-left: 70px;
+
+}
+
+
+.ccc{
+  width: 200px;
+  height:150px;
+  /* background-color: #d545d7; */
+  background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fstoryset.com%2Fillustration%2Femergency-call%2Fbro&psig=AOvVaw1pm2uBfcpDGN956obGV0Ry&ust=1697298067517000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKDJ2Jeu84EDFQAAAAAdAAAAABAD");
+
+
+}
+
+  .hoverable-container {
+    width: 250px;
+    height: 250px;
+    background-color: #211b218c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+     border-radius: 40px;
+   
+     
+     
+  }
+  .hoverable-container1 {
+    width: 250px;
+    height: 250px;
+    background-color: #211b218c;
+    margin-left: 33%;
+    margin-top: -25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+     border-radius: 40px;
+  }
+  .hoverable-container2 {
+    width: 250px;
+    height: 250px;
+    background-color: #211b218c;
+    margin-left: 65%;
+    margin-top: -25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+     border-radius: 40px;
+  }
+  .hoverable-container3
+  {
+    width: 250px;
+    height: 250px;
+    background-color: #211b218c;
+    margin-left: 65%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+     border-radius: 40px;
+    
+  }
+  .hoverable-container3
+  {
+    width: 250px;
+    height: 250px;
+    background-color: #211b218c;
+    margin-left: 65%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+     border-radius: 40px;
+    
+  }
+  .hoverable-container4
+  {
+    width: 250px;
+    height: 250px;
+    background-color: #211b218c;
+    margin-left: 33%;
+    margin-top: -24.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+     border-radius: 40px;
+    
+  }
+  .hoverable-container5
+  {
+    width: 250px;
+    height: 250px;
+    background-color: #211b218c;
+  
+    margin-top: -25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+     border-radius: 40px;
+  }
+   .c22{
+    transform: scale(1.1); /* Scale up the container on hover */
+    background-color: #1773be; /* Change background color on hover */
+    cursor: pointer;
+    height: 200px;
+    width:200px;
+    color:#d545d7;
+  }
+  
+  .hoverable-container:hover {
+  
+    transform: scale(1.1); /* Scale up the container on hover */
+    background-color: #bbc1c6; /* Change background color on hover */
+    cursor: pointer;
+    
+  }
+ 
+   .hoverable-container1:hover {
+    transform: scale(1.1); /* Scale up the container on hover */
+    background-color: #bbc1c6; /* Change background color on hover */
+    cursor: pointer;
+    
+  }
+  .hoverable-container2:hover {
+    transform: scale(1.1); /* Scale up the container on hover */
+    background-color: #bbc1c6; /* Change background color on hover */
+    cursor: pointer;
+    
+  }
+  .hoverable-container3:hover {
+    transform: scale(1.1); /* Scale up the container on hover */
+    background-color: #bbc1c6; /* Change background color on hover */
+    cursor: pointer;
+    
+  }
+  .hoverable-container5:hover {
+    transform: scale(1.1); /* Scale up the container on hover */
+    background-color: #bbc1c6; /* Change background color on hover */
+    cursor: pointer;
+    
+  }
+  .hoverable-container4:hover {
+    transform: scale(1.1); /* Scale up the container on hover */
+    background-color: #bbc1c6; /* Change background color on hover */
+    cursor: pointer;
+    
+  }
+  .mukilaa{
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+  }
+  .polii{
+    margin-top: 200px;
+    margin-left: 2px;
+    position: absolute;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+  }
+  .so{
+    margin-top: 200px;
+    margin-left: 2px;
+    position: absolute;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+  }
+  .em
+  {
+    margin-top: 200px;
+    margin-left: 2px;
+    position: absolute;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+  }
+  .dee1
+  {
+    margin-top: 200px;
+    margin-left: 2px;
+    position: absolute;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600; 
+    color: azure;
+  }
+  .wanted
+  {
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+
+  }
+  .emer
+  {
+    height: 150px;
+    width: 150px;
+    border-radius: 20px; 
+  }
+  .soss{
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+  }
+  .fd1
+  {
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+
+  }
+  .want1{
+    margin-top: 200px;
+    margin-left: 2px;
+    position: absolute;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600; 
+  }
+ .miss{
+  height: 150px;
+  width: 150px;
+  border-radius: 20px;
+ }
+ .mi1
+ {
+  margin-top: 200px;
+  margin-left: 2px;
+  position: absolute;
+  font-size: larger;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600; 
+ }
