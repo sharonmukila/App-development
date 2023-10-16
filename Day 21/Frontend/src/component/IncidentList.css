@@ -1,0 +1,55 @@
+/* IncidentList.css */
+
+/* Container styling */
+.incident-list-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #4f85b1cf;
+    text-align: center;
+  }
+  .yu{
+    background-image: url("https://images.pexels.com/photos/5966514/pexels-photo-5966514.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  /* Page title styling */
+  .incident-list-container h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-size: larger;
+    font-weight: bolder;
+  }
+  
+  /* Table styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    border: 2px solid #0c0c0c;
+    padding: 8px;
+    text-align: left;
+    background-color: rgb(95, 93, 92)
+  }
+  
+  th {
+    background-color: #a3a3aa;
+    font-weight: bold;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tbody tr:hover {
+    background-color: #ddd;
+  }
+  
